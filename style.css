@@ -243,6 +243,16 @@ footer {
   .hero {
     flex-direction: column;
     text-align: center;
+.hero-watch {
+  width: 260px;
+  margin: 40px auto 0;
+  display: block;
+  background: transparent;
+  filter: drop-shadow(0 20px 30px rgba(0,0,0,0.6));
+}
+
+
+    
   }
   .hero-text {
     padding-right: 0;
