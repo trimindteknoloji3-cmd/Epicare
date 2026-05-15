@@ -244,13 +244,16 @@ footer {
     flex-direction: column;
     text-align: center;
 .hero-watch {
-  width: 260px;
-  margin: 40px auto 0;
+  width: 160px;   /* küçüldü */
+  height: auto;
+  margin: 30px auto;
   display: block;
   background: transparent;
-  filter: drop-shadow(0 20px 30px rgba(0,0,0,0.6));
-}
 
+  filter: drop-shadow(
+    0 15px 25px rgba(0,0,0,0.5)
+  );
+}
 
     
   }
