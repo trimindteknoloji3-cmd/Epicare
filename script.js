@@ -14,7 +14,6 @@ faders.forEach(fader => appearOnScroll.observe(fader));
 
 // Simple contact form handler (no backend)
 document.querySelector(".contact-form").addEventListener("submit", e => {
-  e.preventDefault();
-  alert("Mesajınız gönderildi (simülasyon). Teşekkür ederiz!");
+ alert("Mesajınız gönderildi. Teşekkür ederiz!"); 
   e.target.reset();
 });
