@@ -2,16 +2,14 @@
 const faders = document.querySelectorAll(".fade-in");
 
 const appearOptions = { threshold: 0.2 };
-const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+
+const appearOnScroll = new IntersectionObserver((entries, observer) => {
   entries.forEach(entry => {
-    if(!entry.isIntersecting) return;
+    if (!entry.isIntersecting) return;
+
     entry.target.classList.add("active");
     observer.unobserve(entry.target);
   });
 }, appearOptions);
 
 faders.forEach(fader => appearOnScroll.observe(fader));
-
-// Simple contact form handler (no backend)
-document.querySelector(".contact-form").addEventListener("submit", e => {
-});
