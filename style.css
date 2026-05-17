@@ -99,10 +99,13 @@ body {
   color: #7c5eff;
 }
 .hero img {
-  width: 350px;
-  max-width: 90%;
-  border-radius: 20px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  width: 120px;
+  max-width: 40%;
+  display: block;
+  margin: 20px auto;
+  background: transparent;
+  object-fit: contain;
+  filter: drop-shadow(0 15px 25px rgba(0,0,0,.35));
 }
 
 /* Section */
