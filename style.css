@@ -264,3 +264,11 @@ footer {
     padding-right: 0;
   }
 }
+.hero img {
+  width: 180px !important;
+  max-width: 70% !important;
+  display: block;
+  margin: 30px auto;
+  object-fit: contain;
+  filter: drop-shadow(0 15px 25px rgba(0,0,0,.25));
+}
