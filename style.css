@@ -243,40 +243,36 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
+
   .hero {
     flex-direction: column;
     text-align: center;
-.hero-watch {
-  width: 160px;   /* küçüldü */
-  height: auto;
-  margin: 30px auto;
-  display: block;
-  background: transparent;
-
-  filter: drop-shadow(
-    0 15px 25px rgba(0,0,0,0.5)
-  );
-}
-
-    
   }
+
   .hero-text {
     padding-right: 0;
   }
+/* Responsive */
+@media (max-width: 768px) {
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    padding-right: 0;
+  }
+
+  .hero img {
+    width: 140px;
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    object-fit: contain;
+    filter: drop-shadow(0 15px 25px rgba(0,0,0,.35));
+  }
+
 }
-.hero img {
-  width: 180px !important;
-  max-width: 70% !important;
-  display: block;
-  margin: 30px auto;
-  object-fit: contain;
-  filter: drop-shadow(0 15px 25px rgba(0,0,0,.25));
-}
-img[src="hero-epicare.jpg"]{
-  width:180px !important;
-  max-width:70% !important;
-  display:block;
-  margin:30px auto !important;
-  object-fit:contain;
-  filter:drop-shadow(0 15px 25px rgba(0,0,0,.25));
-}
+ 
