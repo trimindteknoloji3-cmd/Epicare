@@ -252,17 +252,6 @@ footer {
   .hero-text {
     padding-right: 0;
   }
-/* Responsive */
-@media (max-width: 768px) {
-
-  .hero {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .hero-text {
-    padding-right: 0;
-  }
 
   .hero img {
     width: 140px;
@@ -275,4 +264,3 @@ footer {
   }
 
 }
- 
